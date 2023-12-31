@@ -1,0 +1,46 @@
+footer{
+    margin: 0;
+    padding: 0;
+    height: 265px;
+    width: 100%;
+    background-color: #093264;
+    color: aliceblue;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: larger;
+    padding-top: 25px;
+    list-style-type: none;
+}
+.foot{
+    padding-left: 22px;
+    text-decoration: none;
+    color:white ;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 58px;
+}
+.fa-brands{
+    padding-left: 50px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.fa-regular
+{
+    padding-left: 50px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.socialicons{
+    text-align: center;
+    // padding-left: 10px;
+}
+.cright
+{
+    font-size: 20px;
+    padding: 10px 0 0 60px;
+}
