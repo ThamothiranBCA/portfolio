@@ -113,6 +113,43 @@ h2{
     width: 70px;
     margin: 0 47px 0 0;
 }
+@media(min-width: 320px) and (max-width: 767px)
+{
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius: 212px;
+        margin: 15px 36px 0 0px;
+    }
+    h1{
+        padding: 0px 0px 0px 45px;
+        margin:0;
+    }
+    h2{
+        margin: 7px 0px 0px 32px;
+    }    
+    .socialicons{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+    .techblock{
+        margin: 0 10px 0 0;
+        height: 57px;
+        width: 50px;
+    }
+    .exlens{
+        padding: 0;
+    }
+    .img{
+        height: 49px;
+        width: 45px;
+        padding: 3px
+    }
+    article{
+        height: 700px;
+    }
+}
 
 
 
@@ -123,23 +160,3 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-// .grid{
-//     display: flex;
-// }
-// li{
-//     padding-left: 20px;
-//     //height: 20px;
-// }
-// .techs{
-//     height: 20px;
-//     width: 20px;
-// }
