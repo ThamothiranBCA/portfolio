@@ -1,7 +1,7 @@
 footer{
     margin: 0;
     padding: 0;
-    height: 265px;
+    height: 300px;
     width: 100%;
     background-color: #093264;
     color: aliceblue;
@@ -25,22 +25,65 @@ p{
     padding-left: 58px;
 }
 .fa-brands{
-    padding-left: 50px;
+    // padding-left: 50px;
     font-size: 40px;
     color: aliceblue;
 }
 .fa-regular
 {
-    padding-left: 50px;
-    font-size: 40px;
+    // padding-left: 50px;
     color: aliceblue;
 }
 .socialicons{
     text-align: center;
-    // padding-left: 10px;
+    padding-left: 10px;
 }
 .cright
 {
     font-size: 20px;
     padding: 10px 0 0 60px;
 }
+.socialicons a{
+    color: #fff;
+}
+.hover-fx {
+    font-size: 2rem;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 84px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgb(255,255,255,0.1);
+    transition: 300ms;
+}
+.hover-fx:after{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: 300ms;
+    color: black;
+    
+}
+.hover-fx:hover{
+    background-color:#70e000;
+    color: #151515;
+    color: red;
+}
+.hover-fx:hover:after{
+    opacity: 1;
+    transform: scale(1.15);
+}
+

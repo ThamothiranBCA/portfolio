@@ -87,10 +87,13 @@ h2{
     border-radius: 50%; 
 }
 .exlens{
-  display: inline;
+    //  display: inline;
+     display: inline-block;
+     padding: 9px 25px 0px 107px;
+     font-size: 1.5em;
 }
 .skills{
-       padding: 0 0 0 173px; 
+    //    padding: 0 0 0 173px; 
        display: inline-block;
        display: flex;
 }
