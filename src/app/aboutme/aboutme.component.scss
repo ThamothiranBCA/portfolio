@@ -31,21 +31,47 @@
     font-size: 20px;
     line-height: 26px;
   }
+  .about-mobile-h2{
+    display: none;
+  }
+  .about-desktop-h2{
+    display: block;
+  }
   @media(min-width: 320px) and (max-width: 767px)
   {
+    .aboutMe-sec{
+      display: flex;
+      flex-direction: column-reverse;
+    }
    aside{
     width: 100%;
     height: 460px 
    }
+   .about-mobile-h2{
+    display: block;
+    background-color: #173793;
+  }
+  .about-desktop-h2{
+    display: none;
+  }
    h2{
     padding: 23px 0 0 72px;
    }
   .p2{
-    padding: 0px 0px 0 35px
+    padding: 0px 0px 0 35px;
+    font-size: large;
   }
     .study{
-      height: 110px;
-      width: 100px;
+      height: 125px;
+      width: 125px;
       padding: 0;
+  }
+  .detail
+  {
+    margin: 0 18px;
+    font-size: 17px;
+  }
+  .image-div{
+    text-align: center;
   }
 }
