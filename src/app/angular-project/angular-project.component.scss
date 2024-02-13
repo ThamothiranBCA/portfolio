@@ -113,6 +113,23 @@ h2{
     width: 70px;
     margin: 0 47px 0 0;
 }
+
+    .a{
+        float: right;
+        margin: 27px 236px 0px 0px;
+        padding: 12px 23px;
+        background-color: aqua;
+        text-decoration: none;
+        border-radius: 24px;
+        transition: 300ms;
+    }
+    .a:hover{
+        background-color: aqua;
+        transition: 300ms;
+        box-shadow: 0 0 21px 22px;
+        border-radius: 0;
+    }   
+    
 @media(min-width: 320px) and (max-width: 767px)
 {
     .image{
