@@ -89,7 +89,7 @@ h2{
 .exlens{
     //  display: inline;
      display: inline-block;
-     padding: 9px 25px 0px 107px;
+     padding: 23px 25px 0px 107px;
      font-size: 1.5em;
 }
 .skills
@@ -116,7 +116,6 @@ h2{
     width: 70px;
     margin: 0 47px 0 0;
 }
-<<<<<<< HEAD
 
     .a{
         float: right;
@@ -134,31 +133,6 @@ h2{
         border-radius: 0;
     }   
     
-=======
-.button{
-    float: right;
-    margin: -24px 244px 0px 0px
-}
-button
-    {
-        height: 44px;
-        width: 114px;
-        border-radius: 22px;
-        a{
-            text-decoration: none;
-        }
-        button:hover{
-            color:aqua ;
-        }
-    }
-    .a{
-        height: 30px;
-        width: 30px;
-    }
-
-
-
->>>>>>> 59bed4ec6cd795f703a1283809ee52272c3000ac
 @media(min-width: 320px) and (max-width: 767px)
 {
     .image{
